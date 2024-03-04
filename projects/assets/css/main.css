@@ -1,11 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 /* @import url("fontawesome-all.min.css"); */
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -3310,26 +3306,67 @@ input, select, textarea {
 
 		}
 
+		
 /* Projects */ 
+
+.project-title {
+	background: linear-gradient(to right, #2E3842, transparent);
+	padding: 5px 18px;
+	color: white !important;
+	border-radius: 3px;
+}
 
 .project-section-title {
 	font-size: 2.5em;
     line-height: 1;
 }
-.project-view {
-	height: 450px;
-	width: auto;
-}
-/* iframe.project-view {
-    width: 100%;
-    margin: auto;
-    display: block;
-} */
+
+
 iframe.project-view {
     min-width: 799px;
     min-height: 450px !important;
     margin: auto;
     display: block;
+}
+
+.multiple .project-view {
+	
+	width: 100%;
+	height: auto;
+	margin-bottom: 3%;
+}
+
+.project-content.multiple {
+	flex-direction: column;
+}
+
+.project-content {
+	width: 100% !important;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 10%;
+}
+
+
+.project-view {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	height: 450px;
+	width: auto;
+}
+
+.project-description {
+	padding-left: 3%;
+	line-height: 2.15rem;
+}
+
+@media screen and (max-width: 760px) {
+	.project-view {
+		width: 100%;
+		height: auto;
+		margin: auto;
+	}
 }
 
 @media screen and (max-width: 1000px) {
@@ -3339,83 +3376,27 @@ iframe.project-view {
     }
 }
 
-.project-view.vertical{
-	display: flex;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-	width: 70%;
-	height: auto;
-}
-.project-view.vertical img {
-	margin: 0 20px;
-	height: 250px;
-}
-.project-title {
-	background: linear-gradient(to right, #2E3842, transparent);
-	padding: 5px 18px;
-	color: white !important;
-	border-radius: 3px;
-}
-.project-content {
-	width: 100% !important;
-	display: flex;
-	justify-content: flex-start;
-	margin-bottom: 10%;
-}
-
-.project-description {
-	padding-left: 3%;
-	line-height: 2.15rem;
-}
-
-
 @media screen and (max-width: 1280px) {
 
 	.project-content {
 		flex-direction: column;
-		justify-content: center;
+		margin-bottom: 3%;
 	}
-	.project-view {
-		width: 95%;
-		margin: auto;
-	}
-	.project-content{
-		width: 60%;
-		
-	}
-	.project-description{
-		width: 95%;
-		margin: auto;
-		margin-top: 2%;
-	}
-	.project-view.vertical {
-		width: 100%;
-	}
-	.project-view.vertical img{
-		width: 40%;
-	}
-}
-
-@media screen and (max-width: 1000px) {
 	
-	.project-description {
-		padding: 3% 0;
+	img.project-view{
+		width: 70%;
+		align-self: center;
+		margin-bottom: 3%;
 	}
-	.project-view.vertical{
-		flex-direction: column;
-		justify-content: center;
-		width: 50%;
-	}
-}
-
-@media screen and (max-width: 760px) {
-
-	.project-view {
-		width: 100%;
+	iframe.project-view,
+	.project-view img {
+		width: 70% ;
 		height: auto;
-		margin: auto;
+		margin-right: 0; 
+		margin-bottom: 3%;
 	}
 }
+
 
 /* Page Wrapper + Menu */
 
