@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Projects | Simulation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="../index.html">Rafael Polope</a></h1>
+						<nav id="nav">
+						  <div id="language-selector" class="dropdown" tab-index="0">
+							<button id="dropdown-btn"></button>
+							<ul class="dropdown-content" id="dropdown-content"></ul>
+						  </div>
+						  <ul>
+							<li class="special">
+							  <a href="#menu" class="menuToggle english"><span>Menu</span></a>
+							  <a href="#menu" class="menuToggle spanish"><span>Menú</span></a>
+							  <div id="menu">
+								<ul>
+									<li><a href="#fluids">Fluids</a></li>
+									<li><a href="#terrains">Terrains</a></li>
+									<li><a href="#mass-spring">Mass-Spring</a></li>
+									<li><a href="#soft-bodies">Soft Body</a></li>
+									<li><a href="#rigid-bodies">Rigid Body</a></li>
+									<li><a href="#flocking">Flocking</a></li>
+									<li><a href="#particles">Particles</a></li>
+									<li><a href="#waves">Waves</a></li>
+									<li><a href="#numeric-integration">Numeric Integration</a></li>
+								</ul>
+							  </div>
+							</li>
+						  </ul>
+						</nav>
+					  </header>
+				<!-- Main -->
+					<article id="main">
+						<header class="english">
+							<h2>Simulation</h2>
+							<p>"ALL ABOUT MY EXPERIENCE SIMULATING PHYSICAL BEHAVIORS AND NATURAL PHENOMENA"</p>
+						</header>
+						<header class="spanish">
+							<h2>Simulación</h2>
+							<p>"TODO SOBRE MI EXPERIENCIA SIMULANDO COMPORTAMIENTOS FÍSICOS Y NATURALES"</p>
+						</header>
+						<section id="fluids" class="wrapper style5">
+							<div class="inner">
+
+								<h2 class="project-section-title english">Fluids</h2>
+								<h2 class="project-section-title spanish">Fluidos</h2>
+								<hr />
+
+								<h3 class="project-title">Smoothed-Particle Hydrodynamics (SPH)</h3>
+								<div class="project-content">
+									<img class="project-view" src="./clips/sph.gif" alt="sph"/>
+									<div class="spanish project-description">
+										<p>Simulación de fluidos creados con el modelo <strong>Smoothed Particle Hydrodynamics (SPH)</strong> a partir del paper de Muller de 2003 "Particle-Based Fluid Simulation for Interactive Applications", donde se realizan comparaciones entre los resultados obtenidos de la variación de los parámetros viscosidad y stifness. La programación ha sido hecha con <strong>Python</strong> y el renderizado final se ha hecho a través de <strong>Blender</strong>.</p>
+										<p>Enlace al <a href="https://youtu.be/XUPeQgvhIPA?si=7r6gHGQzQK4B2Ddg">video</a></p>
+									</div>
+									<div class="english project-description">
+										<p>Project carried out during my multimedia engineering degree studies, in the third year, in the simulation subject.</p>
+										<p>This is a simulation made using the <strong>Smoothed Particle Hydrodynamics (SPH)</strong> model based on Müller's 2003 paper <a href="https://www.researchgate.net/publication/231514052_Particle-Based_Fluid_Simulation_for_Interactive_Applications">"Particle-Based Fluid Simulation for Interactive Applications"</a>, which includes comparisons of results obtained by varying viscosity and stiffness parameters among others like superficial tension.</p>
+										<p>The programming was made using <strong>Python</strong> and the final rendering was done using <strong>Blender</strong>.</p>
+										<p>Link to <a href="https://youtu.be/XUPeQgvhIPA?si=7r6gHGQzQK4B2Ddg">video</a></p>
+
+									</div>
+								</div>
+
+								<h3 class="project-title">C++ Fluid Solver</h3>
+								<div class="project-content">
+									<img class="project-view" src="/projects/clips/solver-cpp.gif" alt="cpp-solver"/>
+									<div class="spanish project-description">
+										<p>Simulación basada en las ecuaciones de Navier-Stokes. Esta implementación se lleva a cabo en <strong>C++</strong> usando la librería <strong>GLUT</strong>. En ella, se usan los métodos de <strong>integración numérica de Gauss-Seidel y Jacobi</strong> para llevar a cabo los cálculo de los estados del fluido en cada fotograma, calculando los añadidos de densidad y flujo de fluido, así como la advección mediante <strong>interpolación bilineal</strong>.</p>
+									</div>
+									<div class="english project-description">
+										<p>Simulation based on the Navier-Stokes equations. This implementation is done in <strong>C++</strong> using the <strong>GLUT</strong> library. In it, <strong>Gauss-Seidel and Jacobi numerical integration methods</strong> are employed to perform the calculation of fluid states in each frame. This includes calculating density and fluid flow additions, as well as advection through <strong>bilinear interpolation</strong>.</p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section id="terrains" class="wrapper style5">
+							<div class="inner">
+
+								<h2 class="project-section-title english">Terrains</h2>
+								<h2 class="project-section-title spanishs">Terrenos</h2>
+								<hr />
+
+								<h3 class="project-title english">Generation Algorithms</h3>
+								<h3 class="project-title spanish">Algoritmos de Generación</h3>
+								<div class="project-content">
+									<div class="project-view vertical">
+										<img src="./images/diamante-cuadrado.png" alt="diamante-cuadrado"/>
+										<img src="./images/punto-medio.png" alt="punto-medio"/>
+									</div>
+									<div class="spanish project-description">
+										<p>Este proyecto fue desarrollado en el último curso del grado de ingeniería multimedia. En este proyecto se llevaron a cabo implementaciones en <strong>Python</strong> de varios algoritmos de generación de terreno procedural como los que se muestra: el <strong>algoritmo diamante-cuadrado</strong> y el <strong>algoritmo de punto medio</strong> </p>
+									</div>
+									<div class="english project-description">
+										<p>This project was developed during the final year of the multimedia engineering degree. In this project, implementations in <strong>Python</strong> were carried out for various procedural terrain generation algorithms, such as the <strong>diamond-square algorithm</strong> and the <strong>midpoint algorithm.</strong></p>
+									</div>
+								</div>
+								
+								<h3 class="project-title english">Erosion Algorithms</h3>
+								<h3 class="project-title spanish">Algoritmos de Erosión</h3>
+								<div class="project-content">
+									<div class="project-view vertical">
+										<img src="./images/erosion-termica.png" alt="erosion-termica"/>
+										<img src="./images/erosion-hidrica.png" alt="erosion-hidrica"/>
+									</div>
+									<div class="spanish project-description">
+										<p>Proyecto derivado del anterior que consiste en la implementación en Python de <strong>algoritmos erosivos</strong> para mejorar el realismo de los resultados de los terrenos generados con los algoritmos generados procesalmente. En este caso los terrenos erosionados fueron generados con el algoritmo de diamante-cuadrado y las erosiones empleadas fueron la <strong>erosión térmica</strong> y la <strong>erosión hídrica</strong></p>
+									</div>
+									<div class="english project-description">
+										<p>Derived project from the previous one, which involves the implementation in Python of <strong>erosive algorithms</strong> to enhance the realism of terrain generated using procedural generation algorithms. In this case, the eroded terrains were generated using the diamond-square algorithm and the erosion algorithms were: <strong>termic erosion</strong> and <strong>hydric erosion</strong></p>
+									</div>
+								</div>
+
+								<h3 class="project-title english">Procedural Terrain Generation in Unity</h3>
+								<h3 class="project-title spanish">Generación de Terreno Procedimental en Unity</h3>
+								<div class="project-content">
+									<iframe class="project-view" src="https://youtube.com/embed/MtfNR-PjrO4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="flags"></iframe>
+									<div class="spanish project-description">
+										<p>Este proyecto realizado en mis estudios de máster consiste en una herramienta desarrollada en Unity para la generación infinita de terreno conforme el espectador se desplaza por la escena. Implementa la generación de chunks de terreno utilizando programación en paralelo con <strong>JobSystem</strong> y <strong>Burst Compiler</strong> con <strong>C#</strong>, aprovechando el sistema DOTS de Unity para <strong>optimizar el rendimiento</strong> del procesador y mejorar la tasa de frames. Esto facilita la implementación de mejoras en los algoritmos de generación, como la <strong>inclusión de algoritmos de erosión</strong>. La herramienta ofrece varios algoritmos de generación de terreno, como <strong>ruido Perlin, Simplex y Voronoi</strong>, así como la opción de añadir erosión para aumentar el realismo, mediante la coloración de los vértices de la malla según un gradiente de color personalizable. Además de este gradiente, el script de generación incluye <strong>diversos parámetros personalizables</strong> que permiten ajustar el terreno generado según las preferencias del usuario.</p>
+									</div>
+									<div class="english project-description">
+										<p>This project, carried out during my master's studies, consists of a tool developed in Unity for the infinite generation of terrain as the viewer moves through the scene. It implements terrain chunk generation using parallel programming with <strong>JobSystem</strong> and <strong>Burst Compiler</strong> using <strong>C#</strong>, leveraging Unity's DOTS system to <strong>optimize processor performance</strong> and improve frame rate. This facilitates the implementation of improvements in generation algorithms, such as the <strong>inclusion of erosion algorithms</strong>. The tool offers various terrain generation algorithms, such as <strong>Perlin noise, Simplex, and Voronoi</strong>, as well as the option to add erosion to increase realism by coloring the mesh vertices based on a customizable color gradient. In addition to this gradient, the generation script includes <strong>various customizable parameters</strong> that allow adjusting the generated terrain according to user preferences.</p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section id="mass-spring" class="wrapper style5">
+							<div class="inner">
+
+								<h2 class="project-section-title">Mass-Spring Model</h2>
+								<hr />
+
+								<h3 class="project-title">Hair (1D-Spring)</h3>
+								<div class="project-content">
+									<img class="project-view" src="/projects/clips/hair-1D-spring.gif" alt="hair"/>
+									<div class="spanish project-description">
+										<p>Esta simulación fue de las primeras simulaciones realizadas durante la asignatura de Simulación del grado de ingeniería multimedia usando Processing. En ella se emplean nodos unidos entre ellos con una constante elástica con un valor que simula el pelo real, además se hizo interactuable con el ratón para poder mostrar el efecto.</p>
+									</div>
+									<div class="english project-description">
+										<p>This simulation was one of the first simulations carried out during the Simulation course in the multimedia engineering degree using Processing. It involves nodes connected to each other with an elastic constant with a value that simulates real hair. Additionally, it was made interactive with the mouse to showcase the effect.</p>
+									</div>
+								</div>
+
+								<h3 class="project-title english">Flags (2D-Springs)</h3>
+								<h3 class="project-title spanish">Banderas (Muelles 2D)</h3>
+								<div class="project-content">
+									<iframe class="project-view" src="https://www.youtube.com/embed/Jy_YtAcyx_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>									
+									<div class="spanish project-description">
+										<p>Esta es una simulación de telas realizada durante mis estudios de ingeniería multimedia, durante el tercer en la asignatura de simulación. En ella se simula el comportamiento de banderas con y sin viento usando diferentes tipos de configuración de malla. Para este ejercicio se utilizaron tres tipos de estructuras: <strong>structured, bend y shredded</strong>. La simulación esta realizada en <strong>Processing</strong> y en ella se observa las diferencia entre las diferentes estructuras así como el resultado de hace combinaciones de varios tipos de entramados.</p>
+									</div>
+									<div class="english project-description">
+										<p>This is a fabric simulation created during my multimedia engineering studies, in the third year of the simulation course. It simulates the behavior of flags with and without wind using different mesh configurations. Three types of structures were used for this exercise: <strong>structured, bend, and shredded</strong>. The simulation is implemented in <strong>Processing</strong>, showcasing the differences between the various structures as well as the result of combining several types of meshes.</p>
+									</div>
+								</div>
+
+								<h3 class="project-title english">Deformable 2D-Mesh (Breakable)</h3>
+								<h3 class="project-title spanish">Malla 2D Deformable (Rompible)</h3>
+								<div class="project-content">
+									<img class="project-view" src="/projects/clips/rotura-malla.gif" alt="deformable-mesh"/>
+									<div class="spanish project-description">
+										<p>Esta simulación en Processing es una continuación de la experimentación con las simulaciones de mallas 2D basadas en el <strong>modelo masa muelle</strong>. En este caso se experimenta con la posibilidad de crear una malla deformable con ruptura si se excede una elongación límite entre nodos contiguos.</p>
+										<p>En esta simulación se experimenta con una constante elástica muy baja, por lo que apenas se da lugar a la elongación de la malla. De esta manera, se sobrepasa enseguida el límite de elongación y se produce la fractura de la mesh, dando como resultado que algunos pequeños trozos de tela queden flotando dando la ilusión de que es un material sólido no deformable</p>
+									</div>
+									<div class="english project-description">
+										<p>This Processing simulation is a continuation of the experimentation with 2D mesh simulations based on the <strong>mass-spring model</strong>. In this case, the possibility of creating a deformable mesh with rupture if an elongation limit between contiguous nodes is exceeded is explored.</p>									
+										<p>This simulation explores a very low elastic constant, resulting in minimal elongation of the mesh. In this way, the elongation limit is quickly exceeded, leading to the fracture of the mesh. As a result, some small pieces of the mesh remain floating, creating the illusion of a non-deformable solid material.</p>
+									</div>
+								</div>
+								<h3 class="project-title english">Deformable 2D-Mesh (Unbreakable)</h3> 
+								<h3 class="project-title spanish">Malla 2D Deformable (Irrompible)</h3>
+								<div class="project-content">
+									<iframe class="project-view" src="https://youtube.com/embed/SUXgtQJ_7us" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="flags"></iframe>
+									<div class="spanish project-description">
+										<p>Simulación similar a la anterior donde esta vez a la malla se le elimina la posibilidad de romperse y se le da una constante elástica mayor experimento sirvió para detectar comportamientos particulares de los sistemas de integración numérica como que la tela sea atravesada por la actualización de posición entre distintos fotogramas. En la siguiente sección se podrán observar otras simulaciones con un modelo distinto (PBD) que sirve para solucionar este tipo de casuísticas.</p>
+									</div>
+									<div class="english project-description">
+										<p>Similar to the previous simulation, this time the mesh is prevented from breaking, and a higher elastic constant is applied. The experiment served to identify particular behaviors of numerical integration systems, such as the fabric being penetrated by the position update between different frames. In the next section, other simulations with a different model (PBD) will be presented, addressing such scenarios.</p>									
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section id="soft-bodies" class="wrapper style5">
+							<div class="inner">
+
+								<h2 class="project-section-title english">Soft Bodies</h2>
+								<h2 class="project-section-title spanish">Cuerpos Blandos</h2>
+								<hr />
+
+								<h3 class="project-title">Position Based Dynamics (PBD)</h3> 
+								<div class="project-content">
+									<iframe class="project-view" src="https://youtube.com/embed/9_rl9riU78c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="flags"></iframe>
+									<div class="spanish project-description">
+										<p>En esta simulación de <strong>Processing</strong> realizada también durante mis estudios de grado de nuevo nos encontramos con una <strong>simulación de telas</strong>, pero esta vez bajo un modelo distinto. En esta simulación se emplea un modelo basado en un paper de <a href="https://www.cs.toronto.edu/~jacobson/seminar/mueller-et-al-2007.pdf">Muller et al. (2007) sobre <strong>Position Based Dynamics (PBD)</strong></a>. Este enfoque, en lugar de utilizar velocidades, se centra directamente en las posiciones, permitiendo evitar problemas de integración en sistemas basados en fuerzas. Una de las características esenciales que destacan en este modelo es el uso de restricciones para el cálculo de las nuevas posiciones. En el vídeo, se observa que los colores de las uniones entre los nodos de la malla tienen un color entre blanco y rojo, siendo más rojo cuando las distancias entre nodos cumplen menos con las restricciones establecidas.</p>
+									</div>
+									<div class="english project-description">
+										<p>In this <strong>Processing</strong> simulation, also conducted during my undergraduate studies, we encounter a <strong>cloth simulation</strong>, but this time under a different model. This simulation employs an approach based on a paper by <a href="https://www.cs.toronto.edu/~jacobson/seminar/mueller-et-al-2007.pdf">Muller et al. (2007) on <strong>Position Based Dynamics (PBD)</strong></a>. This approach, instead of relying on velocities, focuses directly on positions, avoiding integration problems in force-based systems. One of the essential features highlighted in this model is the use of constraints for calculating new positions. In the video, you can observe that the colors of the connections between the mesh nodes range from white to red, with a deeper red indicating less compliance with the established constraints.</p>								
+								</div>
+							</div>
+						</section>
+
+						<section id="rigid-bodies" class="wrapper style5">
+							<div class="inner">
+
+								<h2 class="project-section-title spanish">Cuerpos Rígidos</h2>
+								<h2 class="project-section-title english">Rigid Bodies</h2>
+								<hr />
+
+								<h3 class="project-title english">Angular Velocity</h3> 
+								<h3 class="project-title spanish">Velocidad Angular</h3> 
+								<div class="project-content">
+									<iframe class="project-view" src="https://youtube.com/embed/atF7-ECxbG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="flags"></iframe>
+									<div class="spanish project-description">
+										<p>En esta simulación se realiza el cálculo de la <strong>velocidad angular</strong> que corresponde a la rotación realizada por una esfera desplazándose sin que se produzca deslizamiento. En este ejercicio simple se realizó un cálculo de dicha rotación para que el movimiento de la esfera fuese acorde con su rotación, haciendo que parezca que es la rotación quien imprime movimiento lineal.
+									</div>
+									<div class="english project-description">
+										<p>In this simulation, the calculation of the <strong>angular velocity</strong> corresponding to the rotation performed by a sphere moving without sliding is carried out. In this simple exercise, a calculation of this rotation was made so that the movement of the sphere is consistent with its rotation, making it appear that the rotation is imparting linear motion.</p>									
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section id="flocking" class="wrapper style5">
+							<div class="inner">
+
+								<h2 class="project-section-title">Flocking</h2>
+								<hr />
+
+								<h3 class="project-title">Steering Behaviors</h3> 
+								<div class="project-content">
+									<iframe class="project-view" src="https://youtube.com/embed/mrzP8X1iMkc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="flags"></iframe>
+									<div class="spanish project-description">
+										<p>Proyecto de la asignatura de Simulación del grado de Ingeniería Multimedia. En esta práctica se debía implementar diversos <strong>comportamientos autónomos</strong> como <strong>seek, flee, arrive, borders, pursue and evade y path following</strong>. Esta práctica fue la primera puesta en práctica de <strong>algoritmos de IA</strong>.</p>
+									</div>
+									<div class="english project-description">
+										<p>Project of the Simulation subject of the Multimedia Engineering degree. In this assignment, various <strong>autonomous behaviors</strong> such as <strong>seek, flee, arrive, borders, pursue and evade, and path following</strong> had to be implemented. This assignment was the first practical application of <strong>AI algorithms</strong>.</p>
+									</div>
+								</div>
+								<h3 class="project-title english">A* & wA* Algorithms + Flocking with K agents</h3> 
+								<h3 class="project-title spanish">Algoritmos A* & wA* + Flocking con K agentes</h3> 
+								<div class="project-content">
+									<iframe class="project-view" src="https://youtube.com/embed/9bqIp9zWt9c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="flags"></iframe>
+									<div class="spanish project-description">
+										<p>Esta práctica, realizada durante el último curso de mi grado de ingeniería multimedia, consistió en crear varios caminos navegables para <strong>diversos agentes</strong> construidos mediante los <strong>algoritmos 'A*' y 'weighted A*</strong>'. Estos algoritmos buscan caminos óptimos y subóptimos, respectivamente, que conecten dos nodos entre sí. De esta manera, se añade variabilidad al recorrido de los agentes y se logra que el trayecto transmita una sensación de movimiento más orgánica y realista.</p>
+									</div>
+									<div class="english project-description">
+										<p>This project, undertaken during the final year of my multimedia engineering degree, involved creating various navigable paths for <strong>multiple agents</strong> built using the <strong>'A*' and 'weighted A*' algorithms</strong>. These algorithms seek optimal and suboptimal paths, respectively, connecting two nodes. This introduces variability to the agents' routes, resulting in a more organic and realistic sense of movement in the undertaken path.</p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section id="particles" class="wrapper style5">
+							<div class="inner">
+
+								<h2 class="project-section-title english">Particle Systems</h2>
+								<h2 class="project-section-title spanish">Sistemas de Partículas</h2>
+								<hr />
+
+								<h3 class="project-title english">Escalable Systems</h3> 
+								<h3 class="project-title spanish">Sistemas Escalables</h3> 
+								<div class="project-content">
+									<img class="project-view" src="/projects/clips/sistemas-particulas-escalables.gif" alt="escalable-system"/>
+									<div class="spanish project-description">
+										<p>En esta práctica de Simulación, se abordan dos modelos de simulación de colisión de partículas. El <strong>modelo basado en velocidades</strong>, que comprende la detección de colisiones, la restitución a la posición anterior y el cálculo de la velocidad de salida. Y el <strong>modelo basado en fuerzas elásticas (muelles)</strong>, donde se aplica una fuerza repulsiva si las partículas se acercan demasiado. Además, se introducen estructuras de datos como el método basado en grid y tabla hash para mejorar la eficiencia de la detección de colisiones. Estas estructuras contemplan partículas vecinas, reduciendo el coste computacional de la estrategia de "todas contra todas". Se destaca la visualización de partículas agrupadas en celdas para verificar la precisión de las estructuras de datos.
+									</div>
+									<div class="english project-description">
+										<p>In this Simulation practice, two particle collision simulation models are addressed. The <strong>velocity-based model</strong> involves collision detection, restitution to the previous position, and calculation of the exit velocity. The <strong>elastic force-based model (springs)</strong> applies a repulsive force if particles get too close. Additionally, data structures such as the grid-based and hash table methods are introduced to enhance collision detection efficiency. These structures consider neighboring particles, reducing the computational cost of the "all-to-all" strategy. The visualization of particles grouped in cells is emphasized to verify the accuracy of the data structures.</p>
+									</div>
+								</div>
+								<h3 class="project-title english">Fire Works</h3> 
+								<h3 class="project-title spanish">Fuegos Artificiales</h3> 
+								<div class="project-content">
+									<iframe class="project-view" src="https://youtube.com/embed/eLtpY3r-AfA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="flags"></iframe>
+									<div class="spanish project-description">
+										<p>Esta práctica de simulación aborda la creación de un sistema de partículas para simular un castillo de fuegos artificiales. El objetivo principal es <strong>implementar interacciones realistas entre las partículas</strong>, considerando fuerzas externas como el viento y la gravedad. Cada partícula se caracteriza por propiedades como color, forma y tiempo de vida. La simulación se divide en el ascenso de la carcasa y la explosión para formar diversas palmeras. La interfaz permite configurar la fuerza y dirección del viento, y se deben diseñar diferentes tipos de palmeras mediante configuraciones de velocidad inicial.</p>
+									</div>
+									<div class="english project-description">
+										<p>This simulation practice addresses the creation of a particle system to simulate a fireworks display. The main objective is to <strong>implement realistic interactions between the particles</strong>, considering external forces such as wind and gravity. Each particle is characterized by properties such as color, shape, and lifetime. The simulation is divided into the ascent of the shell and the explosion to form various palm trees. The interface allows configuring the force and direction of the wind, and different types of palm trees must be designed through initial velocity configurations.</p>									
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section id="waves" class="wrapper style5">
+							<div class="inner">
+
+								<h2 class="project-section-title english">Waves</h2>
+								<h2 class="project-section-title spanish">Ondas</h2>
+								<hr />
+
+								<h3 class="project-title english">Directional, Radial, Gerstner</h3>
+								<h3 class="project-title spanish">Direccional, Radial, Gerstner</h3>
+								<div class="project-content">
+									<iframe class="project-view" src="https://youtube.com/embed/yVNReb0XynU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="flags"></iframe>
+									<div class="spanish project-description">
+										<p>Esta práctica aborda la simulación de ondas <strong>mediante mapas de altura</strong></strong>, utilizando tres modelos: onda radial, onda direccional y onda Gerstner. El enfoque se centra en la implementación de estructuras de datos gráficas, representadas por mapas de altura con coordenadas (x, y, z). Se estudian y desarrollan las funciones necesarias para simular cada tipo de onda, destacando la adaptación de la <strong>onda Gerstner</strong> para evitar crestas artificiales.</p>
+									</div>
+									<div class="english project-description">
+										<p>This practice addresses the simulation of waves using <strong>height maps</strong>, employing three models: radial wave, directional wave, and Gerstner wave. The focus is on the implementation of graphical data structures, represented by height maps with coordinates (x, y, z). The necessary functions to simulate each type of wave are studied and developed, with a particular emphasis on adapting the <strong>Gerstner wave</strong> to avoid artificial crests.</p>
+									</div>
+								</div>
+								<h3 class="project-title english">Rain Waves</h3>
+								<h3 class="project-title spanish">Ondas de Lluvia</h3>
+								<div class="project-content">
+									<img class="project-view" src="/projects/clips/ondas-lluvia.gif" alt="rain-waves"/>
+									<div class="spanish project-description">
+										<p>Esta simulación es un caso práctico que utiliza <strong>ondas radiales</strong>, como se describió en el proyecto anterior. En este escenario, simulamos diversas ondas con radios específicos y una vida útil limitada sobre un fondo de charco para lograr el efecto de gotas de lluvia cayendo en el charco mediante ondas radiales.</p>
+									</div>
+									<div class="english project-description">
+										<p>This simulation is a practical case that utilizes <strong>radial waves</strong> as described in the previous project. In this scenario, we simulate different waves with specific radius and a limited lifespan on a pond background to achieve the effect of raindrops falling onto the pond using radial waves.</p>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<section id="numeric-integration" class="wrapper style5">
+							<div class="inner">
+
+								<h2 class="project-section-title english">Numerical Integrators</h2>
+								<h2 class="project-section-title spanish">Integradores Numéricos</h2>
+								<hr />
+
+								<h3 class="project-title">Euler, Heur & Runge-Kutta</h3>
+								<div class="project-content">
+									<iframe class="project-view" src="https://youtube.com/embed/DifbSnH4V-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="flags"></iframe>
+									<div class="spanish project-description">
+										<p>Proyecto de la asignatura de Simulación en el tercer año del año de ingeniería multimedia. En este proyecto se implementaron en <strong>Processing</strong> los <strong>métodos matemáticos de integración numérica</strong> para simulación como el método de <strong>Euler explícito, Euler semi-implícito, Heur, Raunge-Kutta (RK2 y RK4)</strong> y realizando diferentes experimentos donde se observa el comportamientos de las simulaciones realizadas con muelles y trayectorias de objetos.</p>
+									</div>
+									<div class="english project-description">
+										<p>Project for the Simulation subject in the third year of multimedia engineering. In this project, <strong>mathematical methods of numerical integration</strong> for simulation, such as the explicit <strong>Euler method, semi-implicit Euler, Heun, Runge-Kutta (RK2 and RK4)</strong>, were implemented in <strong>Processing</strong>. Various experiments were conducted to observe the behavior of simulations with springs and object trajectories.</p>									
+									</div>
+								</div>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						  </ul>
+						<ul class="copyright">
+							<li>&copy; Rafael Polope</li><li>3D Developer</li>
+						</ul>
+					</footer>
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+			<script src="../assets/js/language-selector.js"></script>
+	</body>
+</html>

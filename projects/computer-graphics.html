@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Projects | Computer Graphics</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link type="text/css" rel="stylesheet" href="assets/css/main.css" />
+  <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+  <style>
+    .project-view.vertical img {
+        margin: 20px;
+    }
+
+    @media screen and (max-width: 1000px)
+    {
+      #osg.project-view.vertical img {
+          width: 100%;
+      }
+    }
+  </style>
+  <!-- Page Wrapper -->
+  <div id="page-wrapper">
+    <!-- Header -->
+    <header id="header">
+      <h1><a href="../index.html">Rafael Polope</a></h1>
+      <nav id="nav">
+        <div id="language-selector" class="dropdown" tab-index="0">
+          <button id="dropdown-btn"></button>
+          <ul class="dropdown-content" id="dropdown-content"></ul>
+        </div>
+        <ul>
+          <li class="special">
+            <a href="#menu" class="menuToggle english"><span>Menu</span></a>
+            <a href="#menu" class="menuToggle spanish"><span>Menú</span></a>
+            <div id="menu">
+              <ul>
+                <li><a href="#opengl">Graphical Applications</a></li>
+                <!-- <li><a href="#comp-geometry">Computational Geometry</a></li> -->
+                <li><a href="#proj-geometry">Projective Geometry</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <article id="main">
+      <header>
+        <div class="english">
+          <h2>Computer Graphics</h2>
+          <p>"EXPLORE MY WORK RELATED WITH GRAPHICAL APPLICATIONS"</p>
+        </div>
+        <div class="spanish">
+          <h2>Informática Gráfica</h2>
+          <p>"DESCUBRE MI TRABAJO RELACIONADO CON LAS APLICACIONES GRÁFICAS"</p>
+        </div>
+      </header>
+      
+      <section id="opengl" class="wrapper style5">
+        <div class="inner">
+          <h2 class="project-section-title">OpenGL</h2>
+          <hr />
+          <h3 class="project-title spanish">Brazo Robótico</h3>
+          <h3 class="project-title english">Robotic Arm</h3>
+          <div class="project-content">
+            <img class="project-view" src="./clips/robotic-arm.gif" alt="robotic-arm"/>
+            <div class="spanish project-description">
+              <p>Este fue mi primer proyecto hecho con <strong>OpenGL</strong> durante la carrera en el que se representa un brazo robótico con la capacidad de interactuar con una tetera. Utiliza OpenGL para renderizar los objetos y se controla el movimiento del brazo mediante el teclado. La rotación de las diferentes partes del brazo se realiza empleando <strong>operaciones compuestas con matrices</strong>, además de la simulación de agarre de la tetera, el manejo de las transformaciones geométricas y la <strong>detección de colisiones</strong> entre la mano del brazo y la tetera. </p>  
+            </div>
+            <div class="english project-description">
+              <p>This was my first project done with <strong>OpenGL</strong> during my degree in which a robotic arm with the ability to interact with a teapot is represented. It uses OpenGL to render the objects and the movement of the arm is controlled by the keyboard. The rotation of the different parts of the arm is performed using <strong>composite matrix operations</strong>, in addition to simulating the grasp of the teapot, handling geometric transformations, and <strong>detecting collisions</strong> between the arm's hand and the teapot.</p>            
+            </div>
+          </div>
+          <h3 class="project-title spanish">Superficies Paramétricas</h3>
+          <h3 class="project-title english">Parametric Surfaces</h3>
+          <div class="project-content">
+            <img class="project-view" src="./clips/nurbs.gif" alt="nurbs"/>
+            <div class="spanish project-description">
+              <p>Esta práctica desarrollada durante el segundo año de mis estudios de grado consistió en la implementación de varias <strong>superficies paramétricas</strong> donde cada superficie tiene parámetros específicos, como el número de <strong>puntos de control, los vectores de nodos y la tolerancia de muestreo</strong>. El objetivo de la práctica consistía en desarrollar las funciones correspondientes para dibujar cada tipo de superficie de manera individual o conjunta, utilizando un checkbox para activar o desactivar cada una.</p>  
+            </div>
+            <div class="english project-description">
+              <p>This practice, developed during the second year of my undergraduate studies, involved the implementation of several <strong>parametric surfaces</strong> where each surface has specific parameters, such as the number of <strong>control points, knot vectors, and sampling tolerance</strong>. The objective of the practice was to develop the corresponding functions to draw each type of surface individually or collectively, using a checkbox to activate or deactivate each one.</p>            
+            </div>
+          </div>
+
+          <h3 class="project-title">Open Scene Graph (OSG)</h3>
+          <div class="project-content">
+            <div class="project-content" style="flex-direction: column;">
+              <div id="osg" class="project-view vertical" style="align-items: center; width: 100%;">
+                <img width="30%" src="./clips/osg.gif" alt="osg"/>
+                <img width="30%" src="./images/lod.jpg" alt="lod"/>
+              </div>
+              <div class="spanish project-description">
+                <p>En esta práctica, utilicé por primera vez <strong>OpenSceneGraph (OSG)</strong> para crear dos escenas: un tiovivo animado y un camino con árboles. En la escena del tiovivo, se utilizó OSG para gestionar la estructura de la escena y las transformaciones, así como las animaciones de los caballitos mediante <strong>matrices de transformación</strong>. En cuanto al camino con árboles, se usaron <strong>niveles de detalle (LOD)</strong> para optimizar el rendimiento mediante la combinación de diferentes geometrías para representar árboles según su distancia al espectador, mostrando cómo OSG facilita la gestión eficiente de recursos y la creación de aplicaciones gráficas de manera más intuitiva gracias a la API.</p>            
+              </div>
+              <div class="english project-description">
+                <p>In this practice, I used <strong>OpenSceneGraph (OSG)</strong> for the first time to create two scenes: an animated carousel and a road with trees. In the carousel scene, OSG was used to manage the scene structure and transformations, as well as the animations of the horses using <strong>transformation matrices</strong>. As for the road with trees, <strong>level of detail (LOD)</strong> was used to optimize performance by combining different geometries to represent trees based on their distance from the viewer, demonstrating how OSG facilitates efficient resource management and the creation of graphical applications more intuitively through the API.</p>            
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="proj-geometry" class="wrapper style5">
+        <div class="inner">
+          <h2 class="project-section-title spanish">Geometría Proyectiva</h2>
+          <h2 class="project-section-title english">Projective Geometry</h2>
+          <hr />
+          <h3 class="project-title spanish">Panorámicas con Homografía</h3>
+          <h3 class="project-title english">Panoramas with Homographies</h3>
+          <div class="project-content" style="flex-direction: column;">
+            <div id="homography" class="project-view vertical" style="align-items: center; width: 100%;">
+              <img width="25%" src="./images/homography_AB.png" alt="AB"/>
+              <img width="25%" src="./images/homography_DC.png" alt="DC"/>
+              <img width="40%" src="./images/homography_ABCD.png" alt="ABCD"/>
+            </div>
+            <div class="spanish project-description">
+              <p>Esta práctica realizada durante mis estudios de máster trataba sobre la creación de una <strong>imagen panorámica</strong> mediante la <strong>composición de varias imágenes a través de transformaciones homográficas</strong>. Para ello se realizaron dos composiciones previas para crear imágenes agrupadas por parejas. Para evitar la degradación de la calidad debido a múltiples transformaciones, optamos por unir las imágenes de manera secuencial, primero uniendo la imagen más a la izquierda con la siguiente, y luego las dos parejas resultantes. Esto se realizó mediante la implementación de funciones para calcular la matriz de homografía la <strong>transformación homográfica</strong> a las <strong>coordenadas de los puntos de las imágenes</strong>. El proceso consistió en obtener los puntos de cada imagen, calcular la matriz de homografía y transformar las coordenadas de una de las imágenes para unirlas de manera precisa. Este enfoque permitió mantener la deformación al mínimo, obteniendo resultados claros y precisos en la composición final de las cuatro imágenes. El proyecto fue realizado con <strong>Python</strong> y usando la librerías <strong>Matplotlib</strong></p>  
+            </div>
+            <div class="english project-description">
+              <p>This practice, carried out during my master's studies, focused on creating a <strong>panoramic image</strong> by <strong>composing multiple images using homographic transformations</strong>. Two preliminary compositions were made to create images grouped in pairs. To avoid degradation in quality due to multiple transformations, we chose to join the images sequentially, first by combining the leftmost image with the next one, and then the resulting pairs. This was achieved by implementing functions to calculate the homography matrix and apply the <strong>homographic transformation</strong> to the <strong>coordinates of the image points</strong>. The process involved obtaining points from each image, calculating the homography matrix, and transforming the coordinates of one of the images to accurately join them. This approach helped minimize deformation, resulting in clear and precise outcomes in the final composition of the four images. The project was developed using <strong>Python</strong> and the library <strong>Matplotlib</strong></p>            
+            </div>
+          </div>
+          <h3 class="project-title spanish">Proyección de un cubo</h3>
+          <h3 class="project-title english">Cube Projection</h3>
+          <div class="project-content">
+            <img class="project-view" src="./clips/pose-estimation.gif" alt="pose-estimation"/>
+            <div class="spanish project-description">
+              <p>Esta práctica fue desarrollada durante mis estudios de máster la cual se desarrolló con <strong>Python</strong> y usando la librería <strong>OpenCV</strong>. La práctica consistía en calcular la matriz de proyección (P = K[R | t]) para cada fotograma de un conjunto de imágenes y utilizarla para proyectar un cubo tridimensional sobre cuatro casillas de un tablero de ajedrez presente en las imágenes. Esto se logra detectando el tablero de ajedrez en cada imagen y calculando la matriz de proyección correspondiente. Posteriormente, se proyecta un cubo sobre las casillas del tablero utilizando esta matriz. Finalmente, se genera un video a 30 fotogramas por segundo que muestra las imágenes resultantes de la proyección del cubo sobre las casillas del tablero de ajedrez.</p>              
+            </div>
+            <div class="english project-description">
+              <p>This practice was developed during my master's studies which was developed with <strong>Python</strong> and using the <strong>OpenCV</strong> library. The practice consisted of calculating the projection matrix (P = K[R | t]) for each frame of a set of images and using it to project a three-dimensional cube onto four squares of a chessboard present in the images. This is achieved by detecting the checkerboard in each image and calculating the corresponding projection matrix. Subsequently, a cube is projected onto the squares of the board using this matrix. Finally, a video is generated at 30 frames per second that shows the images resulting from the projection of the cube onto the squares of the chessboard.</p>              
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+    </article>
+    <!-- Footer -->
+    <footer id="footer">
+      <ul class="icons">
+        <li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+        <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+        <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+      </ul>
+      <ul class="copyright">
+        <li>&copy; Rafael Polope</li><li>3D Developer</li>
+      </ul>
+    </footer>
+  </div>
+  <!-- Scripts -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/jquery.scrollex.min.js"></script>
+  <script src="../assets/js/jquery.scrolly.min.js"></script>
+  <script src="../assets/js/browser.min.js"></script>
+  <script src="../assets/js/breakpoints.min.js"></script>
+  <script src="../assets/js/util.js"></script>
+  <script src="../assets/js/main.js"></script>
+  <script src="../assets/js/language-selector.js"></script>
+</body>
+</html>
