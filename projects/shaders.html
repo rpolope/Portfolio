@@ -53,7 +53,7 @@
           <h3 class="project-title english">Shaders de Vértice y Fragmento</h3>
           <h3 class="project-title spanish">Vertex and Fragment Shaders</h3>
           <div class="project-content">
-            <img class="project-view" src="/projects/clips/vertex-and-fragment-shader.gif" alt="vertex-fragment"/>
+            <img class="project-view" src="./clips/vertex-and-fragment-shader.gif" alt="vertex-fragment"/>
             <div class="spanish project-description">
               <p>En este proyecto se comenzó a trabajar y entender los shaders de vértice y fragmento. En él se <strong>modifican los vértices</strong> de la geometría de la tetera en base a un <strong>parámetro variante</strong> según el tiempo que hace que fluctúen entre la forma de tetera y esfera de radio 3. También se ha trabajo con el <strong>descarte de ciertos fragmentos</strong> y la <strong>modificación del color</strong> en base al parámetro variante. Estos efectos pueden solaparse para dar el resultado que se muestra</p>
             </div>
@@ -64,7 +64,7 @@
           <h3 class="project-title english">Texturas, Reflejos y Refracción</h3>
           <h3 class="project-title spanish">Textures, Reflections and Refractions</h3>
           <div class="project-content">
-            <img class="project-view" src="/projects/clips/textures-reflections-refractions.gif" alt="textures-reflections-refractions"/>
+            <img class="project-view" src="./clips/textures-reflections-refractions.gif" alt="textures-reflections-refractions"/>
             <div class="spanish project-description">
               <p>En esta práctica se desarrolló uno de los shaders más interesantes que he realizado ya que se hizo la implementación de <strong>texturas multitextura </strong>utilizando más de una textura y combinando adecuadamente la información de transparencia. También se realizó la texturización de un <strong>mapa de entrono, simulando la reflexión</strong>, creando la ilusión de objetos metálicos, y se exploró la<strong> refracción </strong>de los objetos para darles una apariencia de cristal, considerando los índices de refracción del vidrio y del aire, implementando además la <strong>dispersión cromática y las ecuaciones de Fresnel</strong>.</p>
             </div>
@@ -75,7 +75,7 @@
           <h3 class="project-title spanish">Iluminación local, Tipos luces y Sombreado</h3>
           <h3 class="project-title english">Local lighting, light types and Shading</h3>
           <div class="project-content">
-            <img class="project-view" src="/projects/clips/lights-lighting-shading.gif" alt="textures-reflections-refractions"/>
+            <img class="project-view" src="./clips/lights-lighting-shading.gif" alt="textures-reflections-refractions"/>
             <div class="spanish project-description">
               <p>Experimentación con sombreados e iluminación. En esta ocasión se desarrollaron <strong>diferentes tipos de sombreados</strong> usando el modelo de iluminación <strong>Phong</strong>: sombreado suave, sombreado plano, sombreado Phong y sombreado Cartoon. En cuanto a iluminación se implementó la <strong>iluminación por píxel y por vértice con luz puntual</strong>, así como la <strong>iluminación focal</strong>.</p>            
             </div>
@@ -86,7 +86,7 @@
           <h3 class="project-title spanish">Mapeado de normales, de paralaje y de brillos</h3>
           <h3 class="project-title english">Normal Mapping, Parallax Mapping, and Gloss Mapping</h3>
           <div class="project-content">
-            <img class="project-view" src="/projects/clips/normal-parallax-bright-mapping.gif" alt="normal-parallax-bright-mapping"/>
+            <img class="project-view" src="./clips/normal-parallax-bright-mapping.gif" alt="normal-parallax-bright-mapping"/>
             <div class="spanish project-description">
               <p>En esta práctica se emplearon mapas de brillo, paralaje y normales para lograr <strong>efectos realistas con geometría reducida</strong>. Se ajustaron los shaders para <strong>calcular la iluminación en el espacio tangente</strong> y se utilizaron mapas de normales para modificar los vectores normales de los fragmentos de los objetos. Se implementó la capacidad de activar y desactivar una textura de color y combinarla con la información del <strong>mapa de normales</strong> en el shader de fragmento. Además, se modificó el brillo especular de los objetos utilizando un <strong>mapa de brillos</strong> en el shader de fragmento y se empleó el mapeado de paralaje, <strong>tanto de forma simple como iterativa</strong>, para mejorar la sensación de volumen de los objetos.</p>
             </div>
@@ -98,7 +98,7 @@
           <h3 class="project-title spanish">Iluminación hemisferio, basada en imágenes y armónicos esféricos</h3>
           <h3 class="project-title english">Hemisphere Lighting, Image-based Lighting, and Spherical Harmonics</h3>          
           <div class="project-content">
-            <img class="project-view" src="/projects/clips/armonic-spherics-lighting.gif" alt="armonic-spherics-lighting"/>
+            <img class="project-view" src="./clips/armonic-spherics-lighting.gif" alt="armonic-spherics-lighting"/>
             <div class="spanish project-description">
               <p>En esta práctica se introducen cambios en los shaders para lograr diferentes efectos de iluminación. Se alternan entre una <strong>luz ambiente plana</strong> y una <strong>luz ambiente basada en la iluminación de hemisferio</strong> al presionar la tecla 'H', y entre un <strong>modelo de iluminación local</strong> y uno <strong>basado en armónicos esféricos</strong> al presionar la tecla 'S', que solo considera la parte difusa de la iluminación. Además, se implementa la <strong>iluminación basada en imágenes</strong> para la parte difusa al cargar y utilizar un <strong>mapa de irradiación</strong>, activado con la tecla 'I'. Finalmente, se añade una <strong>parte especular a los modelos basados en armónicos esféricos e imágenes</strong>, controlada por la tecla 'E'.</p>            
             </div>
@@ -108,7 +108,7 @@
           <h3 class="project-title spanish">Mapa de sombras</h3>
           <h3 class="project-title english">Shadow Mapping</h3>          
           <div class="project-content">
-            <img class="project-view" src="/projects/clips/shadow-mapping.gif" alt="shadow-mapping"/>
+            <img class="project-view" src="./clips/shadow-mapping.gif" alt="shadow-mapping"/>
             <div class="spanish project-description">
               <p>Mapas de sombras: se implementan sombras en una escena con iluminación por píxel y luz local mediante el uso de mapas de sombras. Se configura un <strong>FBO para generar un mapa de profundidad</strong> y se ajustan los shaders para añadir el sombreado basado en este mapa. Se trata de solucionar el problema de precisión en las zonas iluminadas al dibujar solo las caras traseras o delanteras de los objetos según corresponda. Además, se experimenta con diferentes tamaños de textura de profundidad para evaluar su impacto en los resultados visuales. Se introducen <strong>filtros PCF con múltiples muestras</strong> para mejorar la calidad de las sombras, permitiendo incluso la configuración del número de muestras mediante un </strong>algoritmo de barrido</strong> para un control más preciso sobre la apariencia final de las sombras.</p>            
             </div>
@@ -119,7 +119,7 @@
           <h3 class="project-title spanish">Shader de Teselación</h3>
           <h3 class="project-title english">Tessellation Shader</h3>          
           <div class="project-content">
-            <img class="project-view" src="/projects/clips/tessellation-shader.gif" alt="tessellation-shader"/>
+            <img class="project-view" src="./clips/tessellation-shader.gif" alt="tessellation-shader"/>
             <div class="spanish project-description">
               <p>Para llevar a cabo este shader se utilizó un cubo definido por QUADS para luego transformarlo en una esfera mediante shaders de teselación. Para ello, se configuró el programa para incluir shaders de teselación y se implementó una esfera con un <strong>nivel de teselación fijo</strong>, donde se definió el nivel, tanto en el interior como en el contorno del parche. Luego, se introdujo un <strong>nivel de teselación variable</strong> en función de la distancia al punto de vista, primero globalmente para toda la esfera y luego para cada parche individualmente. Para resolver el problema de las grietas entre parches con diferentes niveles de teselación se calculó independientemente el nivel para cada lado del parche.</p>            
             </div>
@@ -130,7 +130,7 @@
           <h3 class="project-title spanish">Shader de Geometría</h3>
           <h3 class="project-title english">Geometry Shader</h3>          
           <div class="project-content">
-            <img class="project-view" src="/projects/clips/geometry-shader.gif" alt="geometry-shader"/>
+            <img class="project-view" src="./clips/geometry-shader.gif" alt="geometry-shader"/>
             <div class="spanish project-description">
               <p>En esta práctica se trabajó con shaders de geometría para realizar diversas transformaciones. Se usó el shader de geometría para <strong>convertir los triángulos de la tetera en puntos</strong>, calculando el baricentro de cada triángulo y usando ese punto como primitiva. También, se implementó una simulación de explosión en la que los puntos de la tetera se desplazan gradualmente en la dirección de su normal al pulsar una tecla específica. Además, se aplicó una técnica llamada <strong>"impostores"</strong> para representar los puntos como esferas mediante la generación de tiras de triángulos orientadas perpendicularmente a la vista y la proyección de una textura de esfera sobre ellas.</p>            
             </div>
@@ -141,7 +141,7 @@
           <h3 class="project-title spanish">Shader de Cómputo</h3>
           <h3 class="project-title english">Compute Shader</h3>          
           <div class="project-content">
-            <img class="project-view" src="/projects/clips/compute-shader.gif" alt="compute-shader"/>
+            <img class="project-view" src="./clips/compute-shader.gif" alt="compute-shader"/>
             <div class="spanish project-description">
               <p>En esta práctica, se aborda la simulación de partículas mediante shaders de geometría y cómputo. En la primera parte, se transforman las partículas en esferas utilizando la técnica de "impostores". Luego, se introduce la <strong>animación de las partículas utilizando un shader de cómputo</strong>, donde se actualizan las posiciones y velocidades de las partículas teniendo en cuenta la <strong>interacción con las paredes del cubo y la gravedad</strong>. Además, se implementa la amortiguación de las partículas al chocar con las paredes mediante un factor de atenuación ajustable. Por último, se experimenta con la <strong>optimización de los parámetros del shader de cómputo</strong>, incluyendo el número de partículas y el tamaño del grupo de trabajo, para lograr un mejor frame rate.</p>            
             </div>
