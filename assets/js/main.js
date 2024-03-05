@@ -168,38 +168,18 @@
 		
 			if (currentSrc === dayModeImage) {
 				$(this).attr('src', nightModeImage);
-				$('#one').css('background', '');
-				$('#two').css('background', '');
+				$('#demo-reel').css('background', '');
+				$('#about-me').css('background', '');
 				$('.main.style3.secondary').css('background', '');
 				$('.main.style3.secondary h2').css('color', '#39454b');
 			} else {
 				$(this).attr('src', dayModeImage);
-				$('#one').css('background', nightModeBackground);
-				$('#two').css('background', nightModeBackground);
+				$('#demo-reel').css('background', nightModeBackground);
+				$('#about-me').css('background', nightModeBackground);
 				$('.main.style3.secondary').css('background', nightModeBackground);
 				$('.main.style3.secondary h2').css('color', '#ffffff');
 			}
 		});
-
-	// Gallery.
-		// $window.on('load', function() {
-
-		// 	var $gallery = $('.gallery');
-
-		// 	// Hack: Adjust margins when 'small' activates.
-		// 		breakpoints.on('>small', function() {
-		// 			$gallery.each(function() {
-		// 				$(this)[0]._poptrox.windowMargin = 50;
-		// 			});
-		// 		});
-
-		// 		breakpoints.on('<=small', function() {
-		// 			$gallery.each(function() {
-		// 				$(this)[0]._poptrox.windowMargin = 5;
-		// 			});
-		// 		});
-
-		// });
 
 	// Section transitions.
 		if (browser.canUse('transition')) {

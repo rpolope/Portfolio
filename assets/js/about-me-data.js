@@ -108,7 +108,7 @@ const sectionsIds = {
 
 getContentDataFromJson();
 let aboutMeSections = Object.keys(contentData.english);
-const contentBoxes = document.querySelectorAll('#two .content.box.style2');
+const contentBoxes = document.querySelectorAll('#about-me .content.box.style2');
 const prevButtons = document.querySelectorAll('.nav-previous');
 const nextButtons = document.querySelectorAll('.nav-next');
 let box = document.querySelector('.slider .box');

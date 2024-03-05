@@ -34,14 +34,14 @@
             "5": {
                 "header": "Proyectos",
                 "image": "images/about-me/projects.webp",
-                "content": "<div class=\"mt-2\">• <span class=\"bold\">Proyectos personales:<span class=\"bold\"></div><div class=\"pl-4\">- Desarrollo de varios proyectos personales relacionados con modelado 3D, animación y desarrollo de juegos.</div><div class=\"pl-4\">- Este portfolio.</div><div class=\"mt-2\">• <span class=\"bold\">Proyectos en prácticas:<span class=\"bold\"></div><div class=\"pl-4\">- Desarrollo de aplicación web desde cero ocupándome de las tareas tanto de front-end como de back-end usando diversos plug-ins y framworks, tales como: bootstrap, JQuery o Codeigniter para manejo de BBDD.</div><div class=\"pl-4\">- Desarrollo de apliación en unity con control de modelos en tiempo real mediante gizmos y de cámara para prevención de riesgos laborales.</div>"
+                "content": "<div class=\"mt-2\">• <span class=\"bold\">Proyectos personales:<span class=\"bold\"></div><div class=\"pl-4\">- Desarrollo de varios proyectos personales relacionados con modelado 3D, animación y desarrollo de juegos.</div><div class=\"pl-4\">- Este portfolio.</div><div class=\"mt-2\">• <span class=\"bold\">Proyectos en prácticas:<span class=\"bold\"></div><div class=\"pl-4\">- Desarrollo de aplicación web desde cero ocupándome de las tareas tanto de front-end como de back-end usando diversos plug-ins y framworks, tales como: bootstrap, JQuery o Codeigniter para manejo de BBDD.</div><div class=\"pl-4\">- Desarrollo de aplicación en unity con control de modelos en tiempo real mediante gizmos y de cámara para prevención de riesgos laborales.</div>"
             }
         },
         "english": {
             "0": {
                 "header": "Who I Am",
                 "image": "images/about-me/yo.jpg",
-                "content": "<p>Hello! I'm Rafa, a multimedia engineer currently specializing in Computer Graphics, VR, and Simulation.</p><p>My goal is to bring 3D worlds to life through storytelling. I'm passionate about both the technical and artistic aspects of this field, which is why I strive to learn every day.</p><p>My aim is to become a versatile professional capable of excelling in all areas of 3D development, creating unique aesthetics and interactions.</p><div class=\"download-cv\"><a href=\"assets/CV (EN).pdf\" download><button><i class=\"fas fa-download\"></i> Download CV</button></a></div>"
+                "content": "<p>Hello! I'm Rafa, a multimedia engineer currently specializing in Computer Graphics, VR, and Simulation.</p><p>My goal is to bring 3D worlds to life through storytelling. I'm passionate about both the technical and artistic aspects of this field, which is why I strive to learn every day.</p><p>My aim is to become a versatile professional capable of excelling in all areas of 3D development, creating unique aesthetics and interactions.</p><div class=\"download-cv\"><a href=\"assets/RAFAEL_POLOPE_CV(EN).pdf\" download><button><i class=\"fas fa-download\"></i> Download CV</button></a></div>"
             },
             "1": {
                 "header": "Skills",

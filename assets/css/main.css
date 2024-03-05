@@ -2144,7 +2144,7 @@ a {
 				display: block;
 			}
 
-		#two .slider {
+		#about-me .slider {
 			width: 100%;
 			display: flex;
 			justify-content: center;
@@ -2196,7 +2196,7 @@ a {
 				width: 60%;
 			}
 
-			#two.main.style2 .content {
+			#about-me.main.style2 .content {
 				width: 75%;
 			}
 		}
@@ -2266,13 +2266,13 @@ a {
 				flex-direction: column-reverse !important;
 			}
 			
-			#one.main.style2
+			#demo-reel.main.style2
 			{
 				padding-bottom: 0;
 				margin-bottom: 0;
 			}
 
-			#two.main.style2
+			#about-me.main.style2
 			{
 				padding-top: 0;
 				margin-top: 10%;
@@ -2465,7 +2465,7 @@ a {
 }
 
 /* Slider Info Container */
-#two .content.box.style2 {
+#about-me .content.box.style2 {
 	align-self: center;
 	position: relative;
     max-width: 600px; 
@@ -2477,7 +2477,7 @@ a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     transition: opacity 0.5s ease-in-out, transform 1s ease-in-out !important;
 }
-#two .content.box.style2 .container {
+#about-me .content.box.style2 .container {
 	position: relative;
     height: 610px;
     padding: 7% 0;
@@ -3321,7 +3321,7 @@ a {
 
 
 /* One, Two */
-	#one, #two {
+	#demo-reel, #about-me {
 		background: #f5f6f7;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
