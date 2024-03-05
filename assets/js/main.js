@@ -135,7 +135,7 @@
 				visibleClass: 'is-menu-visible'
 			});
 
-		$(".menuToggle, .close").on("click", function(e) {
+		$(".menuToggle, .close").on("click", function() {
 			e.preventDefault();
 		});
 		
