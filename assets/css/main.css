@@ -2478,11 +2478,11 @@ a {
     transition: opacity 0.5s ease-in-out, transform 1s ease-in-out !important;
 }
 #two .content.box.style2 .container {
-    min-height: 500px;
+    height: 500px;
     padding: 7% 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 @media screen and (max-width: 1000px){
@@ -2539,7 +2539,9 @@ a {
 
 .pagination {
 	text-align: center;
-	margin-top: 30px;
+	position: fixed;
+	bottom: 5%;
+	left: 40%;
 }
 
 .dot {
