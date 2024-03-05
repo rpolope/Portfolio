@@ -3839,6 +3839,7 @@ background: #c2c9d2;
 			#main > header p a {
 				color: inherit;
 			}
+	
 
 		@media screen and (max-width: 1680px) {
 
@@ -3880,6 +3881,8 @@ background: #c2c9d2;
 	body.is-mobile #main > header {
 		background-attachment: scroll;
 	}
+
+	
 
 /* Footer */
 

@@ -2043,10 +2043,10 @@ a {
 		}
 
 			.main.style2 > .content {
-				-moz-transition: -moz-transform 1s ease;
-				-webkit-transition: -webkit-transform 1s ease;
-				-ms-transition: -ms-transform 1s ease;
-				transition: transform 1s ease;
+				-moz-transition: -moz-transform 1s ease !important;
+				-webkit-transition: -webkit-transform 1s ease !important;
+				-ms-transition: -ms-transform 1s ease !important;
+				transition: transform 1s ease !important;
 				-moz-transform: translateZ(0);
 				-webkit-transform: translateZ(0);
 				-ms-transform: translateZ(0);
@@ -2232,9 +2232,15 @@ a {
 			}
 
 			.main.style2.left .style4,
-			.main.style2.right .style4  {
+			.main.style2.right .style4,
+			.main.style2.right,
+			.main.style2.left  {
+				-moz-justify-content: -moz-center;
+				-webkit-justify-content: center;
+				-ms-justify-content: center;
 				justify-content: center;
 			}
+
 
 		}
 
@@ -2259,7 +2265,19 @@ a {
 				-ms-flex-direction: column-reverse !important;
 				flex-direction: column-reverse !important;
 			}
+			
+			#one.main.style2
+			{
+				padding-bottom: 0;
+				margin-bottom: 0;
+			}
 
+			#two.main.style2
+			{
+				padding-top: 0;
+				margin-top: 10%;
+			}
+			
 			.main.style1 {
 				padding: 4em 15px 4em 15px;
 			}
@@ -2289,6 +2307,7 @@ a {
 					-ms-transform: none;
 					transform: none;
 				}
+
 
 			.main.style3 {
 				text-align: center;
@@ -2323,9 +2342,50 @@ a {
 
 /* 3D Slider */
 
+.resp {
+	display: none;
+	top: calc(100% - 1.5em) !important;
+}
+
+.resp::before, 
+.resp::after
+{
+	top: calc(100% - 1.5em) !important;
+}
+
+
+.content.box.style2 header {
+	position: relative;
+}
+
 .style4 > .slider {
 
 	align-self: flex-start;
+}
+
+@media screen and (max-width: 1000px) {
+	
+	header {
+		position: relative;
+	}
+
+	.style4 >.slider {
+
+		display: none !important;
+	}
+
+	.resp {
+		display: block;
+		top: calc(100% - 1.5em);
+	}
+
+	.nav-next:before {
+		right: 0px;
+	}
+
+	.nav-next:after {
+		left: 0px;
+	}
 }
 
 .slider {
@@ -2405,7 +2465,7 @@ a {
 }
 
 /* Slider Info Container */
-.content.box.style2 {
+#two .content.box.style2 {
 	align-self: center;
 	position: relative;
     max-width: 600px; 
@@ -2415,12 +2475,26 @@ a {
     background-color: #f9f9f9;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out, transform 1s ease-in-out !important;
 }
-.content.box.style2 .container {
-	position: relative;
-	min-height: 500px;
-	padding: 7% 0;
+#two .content.box.style2 .container {
+    min-height: 500px;
+    padding: 7% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1000px){
+
+	.content.box.style2 {
+		max-width: none; 
+	}
+
+	.content.box.style2 header {
+		width: 100%;
+		text-align: center;
+	}
 }
 
 .fade-out {
@@ -2465,8 +2539,7 @@ a {
 
 .pagination {
 	text-align: center;
-    padding-top: 15px;
-	margin-top: -30px;
+	margin-top: 30px;
 }
 
 .dot {
@@ -2484,7 +2557,7 @@ a {
 }
 
 .download-cv{
-	margin-top: 30px;
+	margin-top: 60px;
 	text-align: center;
 }
   
