@@ -2478,7 +2478,8 @@ a {
     transition: opacity 0.5s ease-in-out, transform 1s ease-in-out !important;
 }
 #two .content.box.style2 .container {
-    height: 500px;
+	position: relative;
+    height: 610px;
     padding: 7% 0;
     display: flex;
     flex-direction: column;
@@ -2539,9 +2540,10 @@ a {
 
 .pagination {
 	text-align: center;
-	position: fixed;
+	margin-bottom: 30px;
+	/* position: absolute;
 	bottom: 5%;
-	left: 40%;
+	left: 40%; */
 }
 
 .dot {
