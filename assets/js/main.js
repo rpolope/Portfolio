@@ -207,7 +207,7 @@
 							initialize:	function() { $(this).addClass('inactive'); },
 							terminate:	function() { $(this).removeClass('inactive'); },
 							enter:		function() { $(this).removeClass('inactive');
-													 updateScrollLink('one');
+													 updateScrollLink('demo-reel');
 													 $scrollLink.css('color', '');},
 							leave:		function() { $(this).addClass('inactive'); 
 													 $scrollLink.css('color', 'darkgray');}
@@ -220,8 +220,8 @@
 							initialize:	function() { $(this).addClass('inactive'); },
 							terminate:	function() { $(this).removeClass('inactive'); },
 							enter:		function() { $(this).removeClass('inactive');
-													 $(this).attr('id') === "one"
-														? updateScrollLink('two')
+													 $(this).attr('id') === "demo-reel"
+														? updateScrollLink('about-me')
 														: updateScrollLink('work');},
 							leave:		function() { $(this).addClass('inactive'); }
 						});
